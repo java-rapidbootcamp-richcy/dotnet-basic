@@ -1,0 +1,15 @@
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LogicDasar\bin\Debug\net7.0\LogicDasar.exe
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LogicDasar\bin\Debug\net7.0\LogicDasar.deps.json
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LogicDasar\bin\Debug\net7.0\LogicDasar.runtimeconfig.json
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LogicDasar\bin\Debug\net7.0\LogicDasar.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LogicDasar\bin\Debug\net7.0\LogicDasar.pdb
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LogicDasar\obj\Debug\net7.0\LogicDasar.csproj.AssemblyReference.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LogicDasar\obj\Debug\net7.0\LogicDasar.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LogicDasar\obj\Debug\net7.0\LogicDasar.AssemblyInfoInputs.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LogicDasar\obj\Debug\net7.0\LogicDasar.AssemblyInfo.cs
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LogicDasar\obj\Debug\net7.0\LogicDasar.csproj.CoreCompileInputs.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LogicDasar\obj\Debug\net7.0\LogicDasar.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LogicDasar\obj\Debug\net7.0\refint\LogicDasar.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LogicDasar\obj\Debug\net7.0\LogicDasar.pdb
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LogicDasar\obj\Debug\net7.0\LogicDasar.genruntimeconfig.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LogicDasar\obj\Debug\net7.0\ref\LogicDasar.dll

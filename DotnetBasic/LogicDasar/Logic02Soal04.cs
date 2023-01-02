@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Statement
+namespace LogicDasar
 {
-    public class ForStatement2
+    internal class Class1
     {
-        public static void SampleFor2()
-        {
-        }
     }
 }
