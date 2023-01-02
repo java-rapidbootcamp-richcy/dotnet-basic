@@ -1,0 +1,15 @@
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Statement\bin\Debug\net7.0\Statement.exe
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Statement\bin\Debug\net7.0\Statement.deps.json
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Statement\bin\Debug\net7.0\Statement.runtimeconfig.json
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Statement\bin\Debug\net7.0\Statement.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Statement\bin\Debug\net7.0\Statement.pdb
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.csproj.AssemblyReference.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.AssemblyInfoInputs.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.AssemblyInfo.cs
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.csproj.CoreCompileInputs.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\refint\Statement.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.pdb
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.genruntimeconfig.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\ref\Statement.dll

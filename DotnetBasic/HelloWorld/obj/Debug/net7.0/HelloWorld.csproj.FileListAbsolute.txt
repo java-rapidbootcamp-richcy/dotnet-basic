@@ -1,0 +1,15 @@
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\HelloWorld\bin\Debug\net7.0\HelloWorld.exe
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\HelloWorld\bin\Debug\net7.0\HelloWorld.deps.json
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\HelloWorld\bin\Debug\net7.0\HelloWorld.runtimeconfig.json
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\HelloWorld\bin\Debug\net7.0\HelloWorld.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\HelloWorld\bin\Debug\net7.0\HelloWorld.pdb
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\HelloWorld\obj\Debug\net7.0\HelloWorld.csproj.AssemblyReference.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\HelloWorld\obj\Debug\net7.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\HelloWorld\obj\Debug\net7.0\HelloWorld.AssemblyInfoInputs.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\HelloWorld\obj\Debug\net7.0\HelloWorld.AssemblyInfo.cs
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\HelloWorld\obj\Debug\net7.0\HelloWorld.csproj.CoreCompileInputs.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\HelloWorld\obj\Debug\net7.0\HelloWorld.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\HelloWorld\obj\Debug\net7.0\refint\HelloWorld.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\HelloWorld\obj\Debug\net7.0\HelloWorld.pdb
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\HelloWorld\obj\Debug\net7.0\HelloWorld.genruntimeconfig.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\HelloWorld\obj\Debug\net7.0\ref\HelloWorld.dll
