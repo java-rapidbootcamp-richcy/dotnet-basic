@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicDasar
 {
-    public class Logic02Soal04
+    internal class Logic02Soal06
     {
         public static void CetakData(int n)
         {
@@ -21,12 +21,12 @@ namespace LogicDasar
                     }
                     else
                     {
-                        array[j] = array[j - 1] + array[j - 2];
+                        array[j] = array[j-1] + array[j-2];
                     }
 
-                    if (j == 0 || i == 0 || j == n - 1 || i == n - 1 || j == n / 2 || i == n / 2)
+                    if(j >= i && j <= n-i-1 || j <= i && j >= n - i - 1)
                     {
-                        Console.Write(array[j] + "\t");
+                        Console.Write(array[i]+"\t");
                     }
                     else
                     {

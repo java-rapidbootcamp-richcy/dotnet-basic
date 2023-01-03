@@ -1,0 +1,15 @@
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\DataTypes\bin\Debug\net7.0\DataTypes.exe
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\DataTypes\bin\Debug\net7.0\DataTypes.deps.json
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\DataTypes\bin\Debug\net7.0\DataTypes.runtimeconfig.json
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\DataTypes\bin\Debug\net7.0\DataTypes.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\DataTypes\bin\Debug\net7.0\DataTypes.pdb
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\DataTypes.csproj.AssemblyReference.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\DataTypes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\DataTypes.AssemblyInfoInputs.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\DataTypes.AssemblyInfo.cs
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\DataTypes.csproj.CoreCompileInputs.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\DataTypes.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\refint\DataTypes.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\DataTypes.pdb
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\DataTypes.genruntimeconfig.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\DataTypes\obj\Debug\net7.0\ref\DataTypes.dll

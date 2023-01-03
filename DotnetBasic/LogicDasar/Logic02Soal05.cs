@@ -6,25 +6,25 @@ using System.Threading.Tasks;
 
 namespace LogicDasar
 {
-    public class Logic02Soal04
+    internal class Logic02Soal05
     {
         public static void CetakData(int n)
         {
             int[] array = new int[n];
-            for(int i = 0; i < n; i++)
+            for (int i = 0; i < n; i++)
             {
                 for(int j = 0; j < n; j++)
                 {
-                    if (j <= 1)
+                    if (j <= 2)
                     {
                         array[j] = 1;
                     }
                     else
                     {
-                        array[j] = array[j - 1] + array[j - 2];
+                        array[j] = array[j - 1] + array[j - 2] + array[j - 3];
                     }
 
-                    if (j == 0 || i == 0 || j == n - 1 || i == n - 1 || j == n / 2 || i == n / 2)
+                    if (j >= i && j >= n - i - 1 || j <= i && j <= n - i - 1)
                     {
                         Console.Write(array[j] + "\t");
                     }
