@@ -1,6 +1,8 @@
 ﻿using DataTypes.Abstract;
 using DataTypes.CustomType;
+using DataTypes.Inheritance;
 using DataTypes.OOP;
+using DataTypes.OOP.Inheritance;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,6 +35,16 @@ namespace DataTypes
             BankAccountSample();
             Console.WriteLine();
             ShapeExample();
+            Console.WriteLine();
+            GiftCardAccountSample();
+            Console.WriteLine();
+            InterestEarningAccountsample();
+            Console.WriteLine();
+            LineOfCreditAccountSample();
+            Console.WriteLine();
+            AutomobileExample();
+            Console.WriteLine();
+            BookPublication();
         }
         #region Abstract Example Shape
         public static void ShapeExample()
@@ -52,6 +64,116 @@ namespace DataTypes
                     Console.WriteLine($"   Diagonal: {sq.Diagonal}");
                     continue;
                 }
+            }
+        }
+        #endregion
+
+        #region Inheritance Publication book
+        public static void BookPublication()
+        {
+            var book = new Book("The Tempest", "0971655819", "Shakespeare, William",
+                                "Public Domain Press");
+            ShowPublicationInfo(book);
+            book.Publish(new DateTime(2016, 8, 18));
+            ShowPublicationInfo(book);
+
+            var book2 = new Book("The Tempest", "Classic Works Press", "Shakespeare, William");
+            Console.Write($"{book.Title} and {book2.Title} are the same publication: " +
+                  $"{((Publication)book).Equals(book2)}");
+        }
+
+        public static void ShowPublicationInfo(Publication pub)
+        {
+            string pubDate = pub.GetPublicationDate();
+            Console.WriteLine($"{pub.Title}, " +
+                      $"{(pubDate == "NYP" ? "Not Yet Published" : "published on " + pubDate):d} by {pub.Publisher}");
+        }
+        #endregion
+
+        #region Inheritance Example Automobile
+        public static void AutomobileExample()
+        {
+            var packard = new Automobile("Packard", "Custom Eight", 1948);
+            Console.WriteLine(packard);
+        }
+        #endregion
+
+        #region Sample LineofCredit
+        public static void LineOfCreditAccountSample()
+        {
+            var lineOfCredit = new LineOfCreditAccount("line of credit", 0, 10000);
+            // How much is too much to borrow?
+            lineOfCredit.MakeWithdrawal(1000m, DateTime.Now, "Take out monthly advance");
+            lineOfCredit.MakeDeposit(50m, DateTime.Now, "Pay back small amount");
+            lineOfCredit.MakeWithdrawal(5000m, DateTime.Now, "Emergency funds for repairs");
+            lineOfCredit.MakeDeposit(150m, DateTime.Now, "Partial restoration on repairs");
+            lineOfCredit.PerformMonthEndTransactions();
+            Console.WriteLine(lineOfCredit.GetAccountHistory());
+        }
+        #endregion
+
+        #region Sample GiftCard
+        public static void GiftCardAccountSample()
+        {
+            var giftCard = new GiftCardAccount("gift card", 100, 50);
+            giftCard.MakeWithdrawal(20, DateTime.Now, "get expensive coffee");
+            giftCard.MakeWithdrawal(50, DateTime.Now, "buy groceries");
+            giftCard.PerformMonthEndTransactions();
+            // can make additional deposits:
+            giftCard.MakeDeposit(27.50m, DateTime.Now, "add some additional spending money");
+            Console.WriteLine(giftCard.GetAccountHistory());
+        }
+        #endregion
+
+        #region Sample Interest Earning Account Sample
+        public static void InterestEarningAccountsample()
+        {
+            var savings = new InterestEarningAccount("savings account", 100000);
+            savings.MakeDeposit(7550, DateTime.Now, "save some money");
+            savings.MakeDeposit(11250, DateTime.Now, "Add more savings");
+            savings.MakeWithdrawal(2150, DateTime.Now, "Needed to pay monthly bills");
+            savings.PerformMonthEndTransactions();
+            Console.WriteLine(savings.GetAccountHistory());
+        }
+        #endregion
+
+        #region Sample Trancation BankAccount
+        public static void TransactionBankAccount()
+        {
+            var account = new BankAccount("Aziz", 1000);
+            Console.WriteLine($"Account {account.Number} was created for {account.Owner} with {account.Balance} initial balance.");
+            // Test for a negative balance.
+            try
+            {
+                account.MakeWithdrawal(750, DateTime.Now, "Attempt to overdraw");
+            }
+            catch (InvalidOperationException e)
+            {
+                Console.WriteLine("Exception caught trying to overdraw");
+                Console.WriteLine(e.ToString());
+            }
+
+            try
+            {
+                account.MakeWithdrawal(750, DateTime.Now, "Attempt to overdraw");
+            }
+            catch (InvalidOperationException e)
+            {
+                Console.WriteLine("Exception caught trying to overdraw");
+                Console.WriteLine(e.ToString());
+            }
+
+            // Test that the initial balances must be positive.
+            BankAccount invalidAccount;
+            try
+            {
+                invalidAccount = new BankAccount("invalid", -55);
+            }
+            catch (ArgumentOutOfRangeException e)
+            {
+                Console.WriteLine("Exception caught creating account with negative balance");
+                Console.WriteLine(e.ToString());
+                return;
             }
         }
         #endregion
