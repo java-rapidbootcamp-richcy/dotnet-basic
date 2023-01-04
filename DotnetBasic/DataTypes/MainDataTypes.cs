@@ -1,8 +1,11 @@
 ﻿using DataTypes.Abstract;
 using DataTypes.CustomType;
 using DataTypes.Inheritance;
+using DataTypes.InheritanceType;
+using DataTypes.ObjectType;
 using DataTypes.OOP;
 using DataTypes.OOP.Inheritance;
+using DataTypes.PolymorphismType;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -45,16 +48,98 @@ namespace DataTypes
             AutomobileExample();
             Console.WriteLine();
             BookPublication();
+            Console.WriteLine();
+            SampleObject();
+            Console.WriteLine();
+            SampleInheritance();
+            Console.WriteLine();
+            SamplePolymorphism();
+            Console.WriteLine();
+            SampleClassImplement.InterfaceImplement();
         }
+        #region Polymorphism
+        public static void SamplePolymorphism()
+        {
+            // Polymorphism at work #1: a Rectangle, Triangle and Circle
+            // can all be used wherever a Shape is expected. No cast is
+            // required because an implicit conversion exists from a derived
+            // class to its base class.
+            var shapes = new List<PolyShape>
+            {
+                new PolymorphismType.Rectangle(),
+                new PolymorphismType.Triangle(),
+                new PolymorphismType.Circle()
+            };
+
+            // Polymorphism at work #2: the virtual method Draw is
+            // invoked on each of the derived classes, not the base class.
+            foreach (var shape in shapes)
+            {
+                shape.Draw();
+            }
+            /* Output:
+                Drawing a rectangle
+                Performing base class drawing tasks
+                Drawing a triangle
+                Performing base class drawing tasks
+                Drawing a circle
+                Performing base class drawing tasks
+            */
+        }
+        #endregion
+
+        #region Sample Inheritance
+        public static void SampleInheritance()
+        {
+            // Create an instance of WorkItem by using the constructor in the
+            // base class that takes three arguments.
+            WorkItem item = new WorkItem("Fix Bugs",
+                                        "Fix all bugs in my code branch",
+                                        new TimeSpan(3, 4, 0, 0));
+
+            // Create an instance of ChangeRequest by using the constructor in
+            // the derived class that takes four arguments.
+            ChangeRequest change = new ChangeRequest("Change Base Class Design",
+                                                    "Add members to the class",
+                                                    new TimeSpan(4, 0, 0),
+                                                    1);
+
+            // Use the ToString method defined in WorkItem.
+            Console.WriteLine(item.ToString());
+
+            // Use the inherited Update method to change the title of the
+            // ChangeRequest object.
+            change.Update("Change the Design of the Base Class",
+                new TimeSpan(4, 0, 0));
+
+            // ChangeRequest inherits WorkItem's override of ToString.
+            Console.WriteLine(change.ToString());
+        }
+        #endregion
+
+        #region Sample Object
+        public static void SampleObject()
+        {
+            Person person1 = new Person("Erika", 69);
+            Console.WriteLine("person 1 Name = {0} Age = {1}", person1.Name, person1.Age);
+
+            Person person2 = person1;
+            person2.Name = "Mommy";
+            person2.Age = 22;
+            Console.WriteLine("Person 2 Name = {0} Age = {1}", person2.Name, person2.Age);
+            Console.WriteLine("Person 1 Name = {0} Age = {1}",person1.Name,person1.Age);
+        }
+        #endregion
+
         #region Abstract Example Shape
         public static void ShapeExample()
         {
-            Shape[] shapes = { new Rectangle(10, 12), new Square(5), new Circle(3) };
+            Shape[] shapes = { new Abstract.Rectangle(10, 12), new Abstract.Square(5), new Abstract.Circle(3) };
             foreach(Shape shape in shapes)
             {
                 Console.WriteLine($"{shape}: area, {Shape.GetArea(shape)}; " +
                                   $"perimeter, {Shape.GetPerimeter(shape)}");
-                if (shape is Rectangle rect)
+                if (shape is Abstract.Rectangle rect)
                 {
                     Console.WriteLine($"   Is Square: {rect.IsSquare()}, Diagonal: {rect.Diagonal}");
                     continue;
