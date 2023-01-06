@@ -1,0 +1,15 @@
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LinqTutorial\bin\Debug\net7.0\LinqTutorial.exe
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LinqTutorial\bin\Debug\net7.0\LinqTutorial.deps.json
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LinqTutorial\bin\Debug\net7.0\LinqTutorial.runtimeconfig.json
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LinqTutorial\bin\Debug\net7.0\LinqTutorial.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LinqTutorial\bin\Debug\net7.0\LinqTutorial.pdb
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.csproj.AssemblyReference.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.AssemblyInfoInputs.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.AssemblyInfo.cs
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.csproj.CoreCompileInputs.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\refint\LinqTutorial.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.pdb
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.genruntimeconfig.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\LinqTutorial\obj\Debug\net7.0\ref\LinqTutorial.dll

@@ -1,0 +1,15 @@
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Sample101Linq\bin\Debug\net7.0\Sample101Linq.exe
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Sample101Linq\bin\Debug\net7.0\Sample101Linq.deps.json
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Sample101Linq\bin\Debug\net7.0\Sample101Linq.runtimeconfig.json
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Sample101Linq\bin\Debug\net7.0\Sample101Linq.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Sample101Linq\bin\Debug\net7.0\Sample101Linq.pdb
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.csproj.AssemblyReference.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.AssemblyInfoInputs.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.AssemblyInfo.cs
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.csproj.CoreCompileInputs.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\refint\Sample101Linq.dll
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.pdb
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.genruntimeconfig.cache
+D:\Kerja\RapidTech\java\dotnet-basic\DotnetBasic\Sample101Linq\obj\Debug\net7.0\ref\Sample101Linq.dll
